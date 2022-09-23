@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import TaskList from './features/task/TaskList';
+import TaskInput from './features/task/TaskInput';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <TaskInput />
+        <TaskList />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
